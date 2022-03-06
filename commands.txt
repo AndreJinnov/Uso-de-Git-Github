@@ -1,0 +1,32 @@
+git status
+git init --> to create a repository
+git add  
+git add .  --> añadir todo
+git rm -f ""--> borrar archivo
+touch
+ git rm --cached 'file'  --> para detener el seguimiento de un archivo
+
+Making commits
+
+git commit --> it will ask for unsere user and email
+git config --global user.email "email "
+git config --global user.name "username"
+
+git --help
+git help "concept"
+
+git commit -m ""
+git commit -a ""
+git log  --> give you the story of the commits
+git checkout  ""  --> to change and see a commit
+
+git revert  --> regresa todos los cambios hechos en un commit
+git reset --> te devuelve de forma permanente
+git log --oneline
+git reset --soft    -->changes the commit, but not the files of changes, use with spelling errors
+git reset --mixed   --> if you commit a file you didn't want, changes the stage to unstage
+git reset --hard   --> remove everything, used when come irreversible erros has been made and it cannot be changed manually
+
+
+Create a file named " .gitignore" and then introduce the names of the files that you want to ignore
+git cached .

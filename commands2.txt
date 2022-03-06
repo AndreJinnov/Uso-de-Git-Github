@@ -1,0 +1,6 @@
+git status
+git init --> to create a repository
+git add  
+git add .  --> añadir todo
+git rm -f ""--> borrar archivo
+touch
